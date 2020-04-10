@@ -29,7 +29,7 @@ export const items = [
     sys: { id: 2 },
 
     fields: {
-      title: "htc 105 - red",
+      title: "htc 10 - red",
       price: 350,
       company: "htc",
       description:
