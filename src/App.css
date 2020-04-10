@@ -39,6 +39,6 @@ body {
 .main-link:hover {
   background: var(--darkGrey);
   text-decoration: none;
-  color: var(--primaryColor);
+  color: var(--mainWhite);
   outline-color: var(--darkGrey);
 }

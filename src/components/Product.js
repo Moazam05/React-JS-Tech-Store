@@ -7,7 +7,7 @@ import { ProductConsumer } from "../context";
 export default function Product({ product }) {
   return (
     <ProductConsumer>
-      {value => {
+      {(value) => {
         const { addToCart, setSinglePoduct } = value;
         return (
           <ProductWrapper className="col-10 mx-auto col-sm-8 col-md-6  col-lg-4 my-3">
@@ -76,8 +76,8 @@ const ProductWrapper = styled.div`
     font-size: 2.5rem;
     margin: 1rem;
     padding: 0.5rem;
-    color: var(--primaryColor);
-    background: var(--mainBlack);
+    color: var(--mainWhite);
+    background: var(--darkGrey);
     border-radius: 0.5rem;
   }
   .card:hover .product-icons {

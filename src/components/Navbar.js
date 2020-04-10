@@ -6,7 +6,7 @@ import logo from "../images/logo.svg";
 export default function Navbar() {
   return (
     <ProductConsumer>
-      {value => {
+      {(value) => {
         const { cartItems, handleSidebar, handleCart } = value;
         return (
           <NavWrapper>
